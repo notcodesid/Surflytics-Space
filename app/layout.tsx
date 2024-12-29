@@ -15,6 +15,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: " Secreen Time Tracker",
   description: "Tracks screen time for each tab. ",
+
+  // Open Graph metadata
+  openGraph: {
+    title: " Secreen Time Tracker",
+    description: "Tracks screen time for each tab. ",
+    url: "https://screen-time-blond.vercel.app/",
+    siteName: "Secreen Time Tracker",
+    images: [
+      {
+        url: "/open-graph.png",
+        width: 1200,
+        height: 500,
+        alt: "Title with their description",
+      },
+    ],
+    locale: "en_US",
+    type: "article",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: " Secreen Time Tracker",
+    description: "Tracks screen time for each tab. ",
+    images: ["/open-graph.png"],
+  },
 };
 
 export default function RootLayout({
