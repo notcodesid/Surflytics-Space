@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
   // Open Graph metadata
   openGraph: {
-    title: " Secreen Time Tracker",
+    title: " Screen Time Tracker",
     description: "Tracks screen time for each tab. ",
     url: "https://screen-time-blond.vercel.app/",
     siteName: "Secreen Time Tracker",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: " Secreen Time Tracker",
+    title: " Screen Time Tracker",
     description: "Tracks screen time for each tab. ",
     images: ["/open-graph.png"],
   },

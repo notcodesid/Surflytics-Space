@@ -29,7 +29,7 @@ export default function LandingPage() {
         <main className="max-w-3xl mx-auto flex-grow flex flex-col justify-center space-y-12">
           <div className="space-y-6 text-center">
             <h2 className="text-4xl md:text-5xl font-bold dark:text-white">
-           Secreen Time Tracker
+            Screen Time Tracker
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Tracks screen time for each tab. Get insights on your browsing habits and improve productivity.
