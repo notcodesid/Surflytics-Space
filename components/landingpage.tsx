@@ -39,7 +39,7 @@ export default function LandingPage() {
               asChild
             >
               <Link href="https://github.com/notcodesid/Screen-Time-Tracker-Extension" target="_blank" rel="noopener noreferrer">
-                Get TabTime Extension
+                Get Screen Time Extension
               </Link>
             </Button>
           </div>
