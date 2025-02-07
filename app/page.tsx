@@ -1,7 +1,9 @@
-import LandingPage from "@/components/landingpage";
+import Appbar from "@/components/appbar";
 
 export default function Home() {
   return (
-  <LandingPage />
+  <>
+  <Appbar />
+  </>
   );
 }
