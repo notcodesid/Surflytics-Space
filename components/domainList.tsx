@@ -2,14 +2,12 @@ import { DomainTime } from '@/types/type';
 
 interface DomainListProps {
   domains: DomainTime[];
-  title?: string;
 }
 
-export const DomainList = ({ domains, title = "Today's Time" }: DomainListProps) => {
+export const DomainList = ({ domains  }: DomainListProps) => {
   return (
-    <div className=" rounded-xl shadow-md text-[#FFFFFF] my-10">
+    <div className=" rounded-xl shadow-md text-[#FFFFFF]">
       <div className="flex items-center space-x-2 mb-6">
-        <h3 className="text-2xl">{title}</h3>
       </div>
       <div className="space-y-4">
         {domains.map((domain) => (

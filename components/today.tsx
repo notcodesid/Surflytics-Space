@@ -3,12 +3,12 @@ import { DomainList } from "./domainList";
 
 export default function Today() {
   return (
-    <div className="text-[#FFFFFF] my-10">
-      <h1 className="text-2xl">Today</h1>
+    <div className="text-[#FFFFFF] mt-10">
+      <h1 className="text-2xl">Today&apos;s Time</h1>
 
       <div className="flex justify-between gap-3">
         {/* total time */}
-        <div className="bg-[#1C1C1C] rounded-xl w-[47%]  my-5">
+        <div className="bg-[#1C1C1C] rounded-xl w-[47%]  mt-5">
           <p className="p-4">Total Time</p>
 
           <div className="bg-[#212121] rounded-b-xl">
@@ -17,7 +17,7 @@ export default function Today() {
         </div>
 
         {/* domains */}
-        <div className="bg-[#1C1C1C] rounded-xl w-[47%]  my-5">
+        <div className="bg-[#1C1C1C] rounded-xl w-[47%]  mt-5">
           <p className="p-4">Domains</p>
 
           <div className="bg-[#212121] rounded-b-xl">
